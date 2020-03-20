@@ -7,3 +7,7 @@ body {
   font-family: "Times New Roman", Times, serif;
   max-width: 1000px;
 }
+
+hr {
+  margin: 16px auto;
+}
