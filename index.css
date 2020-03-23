@@ -32,7 +32,7 @@ hr {
   50% {
     transform:rotate(180deg) scale(1.5);
   }
-  100% {
+  75% {
     transform:rotate(360deg) scale(1);
   }
 }
