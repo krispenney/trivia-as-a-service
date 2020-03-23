@@ -11,3 +11,28 @@ body {
 hr {
   margin: 16px auto;
 }
+
+.ugly-spinner {
+  animation: ugly-spinner 7000ms infinite ease-in-out;
+  display: block;
+}
+
+.ugly-spinner a {
+  color: #e1306f;
+}
+
+.ugly-spinner:hover a {
+  background-color: #00ff6b;
+}
+
+@keyframes ugly-spinner {
+  0% {
+    transform:rotate(0deg) scale(1);
+  }
+  50% {
+    transform:rotate(180deg) scale(1.5);
+  }
+  100% {
+    transform:rotate(360deg) scale(1);
+  }
+}
