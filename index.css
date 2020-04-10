@@ -6,19 +6,28 @@ body {
   font-weight: 700;
   font-family: "Times New Roman", Times, serif;
   max-width: 1000px;
+  cursor: none;
 }
 
 hr {
   margin: 16px auto;
 }
 
+a {
+  color: #e1306f;
+}
+
+.past-trivia {
+}
+
+.past-trivia a {
+  color: #7a490b;
+  text-decoration: line-through;
+}
+
 .ugly-spinner {
   animation: ugly-spinner 7000ms infinite ease-in-out;
   display: block;
-}
-
-.ugly-spinner a {
-  color: #e1306f;
 }
 
 .ugly-spinner:hover a {
