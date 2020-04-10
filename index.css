@@ -17,12 +17,24 @@ a {
   color: #e1306f;
 }
 
+.logo {
+  color: #dda53d;
+}
+
+.logo h1 {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  margin-top: 10px;
+}
+
+
 .past-trivia {
 }
 
 .past-trivia a {
   color: #7a490b;
   text-decoration: line-through;
+  pointer-events: none;
+  cursor: not-allowed;
 }
 
 .ugly-spinner {
